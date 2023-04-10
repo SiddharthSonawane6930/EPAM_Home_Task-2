@@ -1,0 +1,12 @@
+.text-center{
+    color: white;
+}
+
+.container-fluid{
+    background-color: rgb(59, 59, 158);
+    height: 50px;
+}
+
+h4{
+    margin-left: 300px;
+}
