@@ -1,0 +1,104 @@
+
+.title {
+    background-color: rgb(1, 1, 83);
+    padding: 1px;
+    height: 150px;
+    text-align: center;
+}
+
+.inside{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 10px;
+}
+
+.subhead {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    }
+.subscribe{
+    text-align: left;
+}
+
+.Category:active{
+    transition-delay: 10s;
+}
+
+.Hnews:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+}
+.b{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(108, 117, 125);
+    height: 25px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.b:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+}
+.b:active{
+    opacity: 0.4 ;
+}
+
+.dropdown{
+    width:  150px;
+    
+}
+
+.news{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 1px;
+}
+
+.all{
+    display: flex;
+    flex-direction: column
+
+    
+}
+
+img{
+    height: 320px;
+    width: 300px;
+    margin-left: 6px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.subtext{
+    text-align: left;
+}
+
+.allB{
+    color: white;
+    background-color: rgb(228, 76, 0);
+    border:1px;
+    height: 36px;
+    width: 150px;
+    font-size:medium;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 10s;
+}
+
+.allB:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;   
+}
+
