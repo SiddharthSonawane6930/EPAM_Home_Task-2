@@ -1,0 +1,186 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News blog</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box 10px;
+
+        }
+
+        .head {
+            background-color: rgb(9, 0, 62);
+            height: 105px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        .head-white {
+            background-color: white;
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-top: 13px;
+        }
+
+        .head-white p {
+            text-align: center;
+        }
+
+        .head2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+        }
+
+        .wrapper img {
+            max-width: 320px;
+            float: left;
+            border: 3px solid white;
+            margin-right: 19px;
+
+        }
+
+        .footer {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+        }
+
+        .button {
+
+            background-color: black;
+            color: #fff;
+        }
+
+        .button2 {
+            background-color: rgb(255, 132, 0);
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Starting Heading  Section -->
+    <header>
+        <div class="head">
+            <div class="head-text">
+                <div class="head-white">
+                    <h1>NEWS BLOG</h1>
+                    <p>World Wide News</p>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <!-- second heading(ALL NEWS) -->
+    <div class="head2">
+        <div>
+            <label><b>Select Category : </b></label>
+            <select name="Category" id="Category">
+                <option value="option1">Economy</option>
+                <option value="option2">Business</option>
+                <option value="option3">Health</option>
+                <option value="option3">Education</option>
+                <option value="option3">Politics</option>
+            </select>
+        </div>
+        <div>
+            <h1>ALL NEWS</h1>
+        </div>
+        <div>
+            <label><b> Subscribe </b></label><br>
+            <input type="email" name="email" id="email" placeholder=" Email Address">
+            <button class="button">Subscribe</button>
+        </div>
+    </div>
+    <hr>
+    <br>
+
+    <!-- Content starts here -->
+    <div class="wrapper">
+        <img src="img1.jpeg" alt="" style="width:300px;height:170px;">
+        <div class="content">
+            <h4>"Bhul Jao Yaar": Harbhajan Singh Intervenes As Sehwag Mocks Sreesanth Over IPL 'Slapgate'</h4>
+            <p>posted on April 05, 2023 12:25 PM IST </p>
+            <br>
+            <p>The Indian Premier League (IPL) has seen some a handful of controversies over the years.
+                One of those that really shook the cricketing world across the world was the 'slapgate' 
+                incident were Harbhajan Singh had slapped S Sreesanth. As Harbhajan, Sreesanth, as well 
+                as Virender Sehwag, got together as pundits for the IPL 2023 season, the incident was 
+                discussed again. On the panel, Sehwag poked fun at Sreesanth over the incident, prompting 
+                Harbahajan to intervene and change the topic.
+            </p>
+        </div>
+        <br>
+        <button class="button2">Continue Reading</button>
+
+    </div>
+    <br><br>
+    <hr>
+
+    <!-- second content -->
+
+
+    <div class="wrapper">
+        <img src="img2.jpeg" alt="" style="width:300px;height:170px;">
+        <div class="content">
+            <h4>Share of low-cost money in bank deposits dips in FY23 amid clamour for FDs</h4>
+            <p>posted on Apr 04 2023 | 10:54 PM IST </p>
+            <br>
+            <p>Ease of movement of funds on digital platforms and deployment of money by businesses 
+                from current accounts also played a role in pruning the share of CASA money The share
+                of low-cost money in total deposits continued to take a knock at the close of FY23 as 
+                banks engaged in intense competition by offering higher interest rates on term money to 
+                garner funds amid tight liquidity conditions.
+            </p>
+        </div>
+        <br>
+        <button class="button2">Continue Reading</button>
+
+
+    </div>
+    <br><br>
+<hr>
+
+<div class="wrapper">
+    <img src="img3.jpeg" alt="" style="width:300px;height:170px;">
+    <div class="content">
+        <h4>Rajasthan Health Services Hospitalised As Doctors' Strike Enters 16th Day</h4>
+        <p>posted on April 03, 2023 7:02 pm IST </p>
+        <br>
+        <p>Jaipur: Rajasthan's healthcare services are under severe pressure due to a strike by doctors, which entered its 16th day today.
+            With private hospitals and diagnostic laboratories shut, government hospitals are burdened with a massive number of patients. Patients say they are unable to get admitted at government hospital due to the big rush.
+            The government hospitals are also admitting only patients who are in a serious condition. 
+        </p>
+    </div>
+    <br>
+    <button class="button2">Continue Reading</button>
+
+
+</div>
+<br><br>
+<hr>
+
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer">
+            <p>Copyrights@ <strong>Shivam Deepak Modi</strong></p>
+        </div>
+    </footer>
+</body>
+
+</html>
